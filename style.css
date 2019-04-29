@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: hsl(252, 3%, 37%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+/* Sidebar */
+
+#navbar {
+    width: 400px;
+    min-width: 200px;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(170, 170, 170, 0.4);
+    color: white;
+}
+
+header {
+    color: #7395ae;
+    font-weight: 300;
+    font-size: 2em;
+    margin: 15px;
+}
+
+#navbar ul {
+    height: 80%;
+    overflow-y: auto;
+    margin-left: 5px;
+}
+
+#navbar li {
+    color: grey;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+}
+
+#navbar a, #navbar a:visited {
+    color: #5d5c61;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#navbar a:hover, #navbar a:focus {
+    text-decoration: underline;
+}
+
+/* Main section */
+#main-doc {
+    margin-left: 410px;
+    padding: 15px;
+}
+
+#main-doc header {
+    margin-left: 0;
+}
+
+section article {
+    margin: 40px 15px;
+    line-height: 2;
+}
+
+code{
+    display:block;
+      text-align: left;
+    white-space: pre;
+    position: relative;
+      word-break: normal;
+      word-wrap: normal;
+      line-height: 2;
+      background-color:#f7f7f7;
+    padding:15px;
+    margin:10px;
+    border-radius:5px;
+}
+
+li {
+    margin-left: 30px;
+}
+
+a, a:visited {
+    color: #7395a3;
+}
+
+a:hover {
+    color: #557a95;
+}
